@@ -1,0 +1,360 @@
+{
+  "protocol": "human-reference-item-v1",
+  "seed": 2026,
+  "resamples": 10000,
+  "permutations": 10000,
+  "confidence": 0.95,
+  "status": "complete",
+  "semantic": {
+    "bertscore": {
+      "status": "completed",
+      "model": "lorenzocc/NeoBERTugues",
+      "revision": "90a4f051ce41df9b7797986990253d98d46351ce",
+      "reference_language": "pt-BR",
+      "layer": "last",
+      "idf": false,
+      "rescale": false,
+      "tokenizer": "model-provided fast tokenizer",
+      "attention": "eager",
+      "implementation": "NeoBERTugues cosine-matching variant; legacy formula"
+    },
+    "comet": {
+      "status": "completed",
+      "model": "Unbabel/wmt22-comet-da",
+      "revision": "2760a223ac957f30acfb18c8aa649b01cf1d75f2",
+      "src_language": "en",
+      "ref_language": "pt-BR",
+      "batch_size": 4
+    }
+  },
+  "corpus": {
+    "source_hashes": {
+      "docs/CHYPS-V-questions-only.txt": "0bd3aeaa114a0fe2db19b1a2ee6106a5ab81d1eefb4b226ca3b888442e63b58e",
+      "translations/questions-only/CHYPS-V-br20-Claude-4.0-Sonnet-25-07-24.txt": "431827a0852320d225f972cb5364e34c27c48ecb77aad2938176644f7ac2ec11",
+      "translations/questions-only/CHYPS-V-br20-Claude-4.0-Sonnet-Thinking-25-07-24.txt": "45255171d7d3f880206fb2fb3739b2033eca244a960d56cf48932027a92990b9",
+      "translations/questions-only/CHYPS-V-br20-Claude-4.1-Opus-24-09-30.txt": "2516ffffe37dd9423ff37f49e9ecb8417790581b30edddc417f0a33082697898",
+      "translations/questions-only/CHYPS-V-br20-Claude-4.5-Sonnet-25-12-10.txt": "60506df1be594e75d9b815de7701d2d209ae27a71e0976030a58932388cf9ad1",
+      "translations/questions-only/CHYPS-V-br20-DeepL-v2-api-v3.4.1-25-06-05.txt": "41683ffaa519470e5ad1c47e6830000ba8a032b014dec82bd33ce8454c733bec",
+      "translations/questions-only/CHYPS-V-br20-DeepL-v2-api-v3.8.0-25-12-10.txt": "4e33d3da783ad1b349cae8ea4ca1b9db2a2bcceb6f3875d25c4f080818d07bed",
+      "translations/questions-only/CHYPS-V-br20-DeepSeek-R1-1776-25-07-24.txt": "28a2cbae0c378e015d22ac7f0e8617f03568f37ac4ab2fa0ae23184ef9f4e635",
+      "translations/questions-only/CHYPS-V-br20-Deepseek-v3-deepthink-25-07-24.txt": "6ee90d728c7acc0f038adf95c4ad41627fce9596ff3f08b272c3ff32469fb92e",
+      "translations/questions-only/CHYPS-V-br20-Deepseek-v3.2-deepthink-25-12-10.txt": "6447774ffb003ca32eda0ae32093937b5b340315d931466840f3bc2e5dcfdbbc",
+      "translations/questions-only/CHYPS-V-br20-Gemini-2.5-Flash-25-07-24.txt": "782e18428d46c6ed51bc85e8b436f8339535e4d36f594624c2f2e0727420e838",
+      "translations/questions-only/CHYPS-V-br20-Gemini-2.5-Pro-25-06-05.txt": "504d1c5919107000748431d9c1a4a03619c17d83bdc4ea25295bc388fc1728e4",
+      "translations/questions-only/CHYPS-V-br20-Gemini-3.0-Pro-25-12-10.txt": "6f60c827ab477dfeae09d06e97f6414c3faee38c3af2f3783bdd5e745ea68945",
+      "translations/questions-only/CHYPS-V-br20-Grok-4-25-07-25.txt": "dcae2708210a6634306d2e1d2b74e1757e33cb19ac7ed378f67199cd5c6f217e",
+      "translations/questions-only/CHYPS-V-br20-Grok-4.1-25-12-10.txt": "418c0323c0cfe95b09b64c062a3ceacd19ce3db4f2f6abb08d99c96b88a25fb5",
+      "translations/questions-only/CHYPS-V-br20-Human-25-09-30.txt": "2efafc00fcaa3f1f22ad82d534b916b741a5fc868617def0bd2c6e8a02eef08a",
+      "translations/questions-only/CHYPS-V-br20-Maritaca-ai-Sabia-3.1-25-07-24.txt": "376988673138ba10432d73858985bed3065c8c607b1b502d9bce45ba289f5682",
+      "translations/questions-only/CHYPS-V-br20-Mistral-Medium-3-25-07-24.txt": "9a2d3370f2fdf4816fcf578791d384b3fc909d846e9d2051412beb3218a9b721",
+      "translations/questions-only/CHYPS-V-br20-MoonshotAI-Kimi-K2-25-07-24.txt": "f5821631aa793f21a98e0a3b6ebe6bb5b27b88c20d307e6323b61d92d618d6f3",
+      "translations/questions-only/CHYPS-V-br20-Nvidia-Llama-3.1-Nemotron-Ultra-253B-v1-25-07-24.txt": "0c4ed10445424827cc1a394850b34322dc6d185cde733105348feafa6645c03c",
+      "translations/questions-only/CHYPS-V-br20-OpenAI-GPT-4.1-25-07-24.txt": "2536ced57b11c484d430d1e581faabec0360e39c2a593d4187d334efe95aa74b",
+      "translations/questions-only/CHYPS-V-br20-OpenAI-GPT-5.1-Pro-25-12-10.txt": "f4cd02244f110fef846eac80ec5cf4f0db660b63a671bf1a2da49cd1965e70a9",
+      "translations/questions-only/CHYPS-V-br20-OpenAI-o3-25-04-16.txt": "8395f7fb81345b99f4f645e839dc9b78709ad9e20d09b6b1daab27c6b9c956ff",
+      "translations/questions-only/CHYPS-V-br20-google-translate-25-09-07.txt": "2058de753634709cc443b470e147a4839df234b7d2899141a4f138d4b3d76159",
+      "translations/questions-only/CHYPS-V-br20-qwen-3-235b-a22b-no-thinking-25-07-24.txt": "ac0b295df952e29046655141fef3edd3119ae059bbde122d28e0c4624918f007",
+      "translations/questions-only/CHYPS-V-br20-qwen-3-max-25-07-24.txt": "45accefe55213e6df2362da672b7edfc3a24ba33aceef4c4f1ac4a44981313ea",
+      "docs/CHYPS-V-plain-text.txt": "800290a2708252faeafd3afc58ebeeca4e1c4ff86b3645634dcac4852800dff9",
+      "translations/plain-text/CHYPS-V-br20-Claude-4.0-Sonnet-25-07-24.txt": "1de15115ba4a574c479d31d3d49ab3416d504458e3a923fa3aaa13a5aac43b4e",
+      "translations/plain-text/CHYPS-V-br20-Claude-4.0-Sonnet-Thinking-25-07-24.txt": "f25de72a9920a6eff9363c3484f5d9e058d35878c7dc90f78d120b2237b9a134",
+      "translations/plain-text/CHYPS-V-br20-Claude-4.1-Opus-24-09-30.txt": "bac384a0a37ef368030200d691e15df8256ce897af3f9dcf22422b04eabae614",
+      "translations/plain-text/CHYPS-V-br20-Claude-4.5-Sonnet-25-12-10.txt": "aa3eba0878249a95cf23da8a6e1bc079caf580136edfaebfae366bb5b21932d8",
+      "translations/plain-text/CHYPS-V-br20-DeepL-v2-api-v3.4.1-25-06-05.txt": "2a0efafc19495b63f6ae0daa9030b0d8e2910f9b2754ac0cf561732145eb0754",
+      "translations/plain-text/CHYPS-V-br20-DeepL-v2-api-v3.8.0-25-12-10.txt": "d62a9f5ddd95da56d449ff2183426a75c9e82fa4eeaea47b13f3310498784807",
+      "translations/plain-text/CHYPS-V-br20-DeepSeek-R1-1776-25-06-05.txt": "ea8ea7cea3c7aee8423bf700ba607c1ce5c5e7d23e8cf385db1d2efb17b69dfa",
+      "translations/plain-text/CHYPS-V-br20-Deepseek-v3-deepthink-25-07-24.txt": "4494ca02b51b899c85a70fc59315e7bf3d6dface23dea2564f5332029e5a6b01",
+      "translations/plain-text/CHYPS-V-br20-Deepseek-v3.2-deepthink-25-12-10.txt": "90a0dcd2e7e3f899ab3782f94e26e25ba40fc114aa4bee446a08e8c03daf2a6d",
+      "translations/plain-text/CHYPS-V-br20-Gemini-2.5-Flash-25-06-05.txt": "444ae565bde3330b4a06f2fec2828f50c112eb8457cc39a0ccc93c96f319a5be",
+      "translations/plain-text/CHYPS-V-br20-Gemini-2.5-Pro-25-06-05.txt": "a9f4cd78a62d4e3a0ad2aaf6148bb2a8d1dd0e5f9d26161f7421261408ec6c48",
+      "translations/plain-text/CHYPS-V-br20-Gemini-3.0-Pro-25-12-10.txt": "457df016288691508d5a7b86483e58e53dbf31a3f92492a982a00b6e880634bf",
+      "translations/plain-text/CHYPS-V-br20-Grok-4-25-07-25.txt": "c0f6e77531e8ccd2a3c0e159fb49fc7fd848e4c385ec0934d2f0fde9f658104e",
+      "translations/plain-text/CHYPS-V-br20-Grok-4.1-25-12-10.txt": "8bc3ae9929f57949b346072a69631bfbe4c5ffb7e017822f5c741bfc485ff370",
+      "translations/plain-text/CHYPS-V-br20-Human-25-09-30.txt": "338ec4af6ae211ca372a0afad2efb921b1576f364d425d253dea64ed9f5a770a",
+      "translations/plain-text/CHYPS-V-br20-Maritaca-ai-Sabia-3.1-25-07-24.txt": "fe02d0e8984ab49bf7cef268f125466cba17dcd44ff640e7d4892bdd99a5c926",
+      "translations/plain-text/CHYPS-V-br20-Mistral-Medium-3-25-07-24.txt": "cbf63d50bb8c5bb93976a6767e3081fdfedd9d091cfc326b705f378893f6d1f9",
+      "translations/plain-text/CHYPS-V-br20-MoonshotAI-Kimi-K2-25-07-24.txt": "71d370959a4d43afd4ce99ebc8b51fb3480a61059b1d9db2a4a0dd4cf978e1c9",
+      "translations/plain-text/CHYPS-V-br20-Nvidia-Llama-3.1-Nemotron-Ultra-253B-v1-25-07-24.txt": "104352bc65744378fdf7ab62db3a8f523a41bc542d8d103d25b842506250457a",
+      "translations/plain-text/CHYPS-V-br20-OpenAI-GPT-4.1-25-07-24.txt": "bf6cf2f9d5144ef1e046c139afffa29f8f40b18b963bab4ce598f602631ef760",
+      "translations/plain-text/CHYPS-V-br20-OpenAI-GPT-5.1-Pro-25-12-10.txt": "eee3fd7f5aa216c45637960df1f4829de884305afe3e82b44ca88fc7b40bab61",
+      "translations/plain-text/CHYPS-V-br20-OpenAI-o3-25-04-16.txt": "8e7e32ee93d260b6c0edf09a7f751663218beeb3e3172b20a79d9a2c707e4cf0",
+      "translations/plain-text/CHYPS-V-br20-google-translate-25-09-07.txt": "8cfe67cbff151bedde357d41b6a4e5064fb26d1926fd1ffb495c2ac8bce80de9",
+      "translations/plain-text/CHYPS-V-br20-qwen-3-235b-a22b-no-thinking-25-07-24.txt": "fd4a2998ec19d3c7804f6dc814cfde27c755dcd0eade3b57edeeb7da2fb1bc7c",
+      "translations/plain-text/CHYPS-V-br20-qwen-3-max-25-07-24.txt": "97c1f46423a0ebf8cc2ca3826218e9618e0fb1fde4a5016714b4a1c4ff14975c"
+    },
+    "candidates": 25,
+    "automatic_candidates": 24,
+    "question_items": 20,
+    "reference_file": "CHYPS-V-br20-Human-25-09-30.txt",
+    "instruction_alignment": [
+      {
+        "filename": "CHYPS-V-br20-Claude-4.0-Sonnet-25-07-24.txt",
+        "candidate_id": "Claude-4.0-Sonnet-25-07-24",
+        "date_alias": false,
+        "exact_duplicate_paragraphs": 3
+      },
+      {
+        "filename": "CHYPS-V-br20-Claude-4.0-Sonnet-Thinking-25-07-24.txt",
+        "candidate_id": "Claude-4.0-Sonnet-Thinking-25-07-24",
+        "date_alias": false,
+        "exact_duplicate_paragraphs": 3
+      },
+      {
+        "filename": "CHYPS-V-br20-Claude-4.1-Opus-24-09-30.txt",
+        "candidate_id": "Claude-4.1-Opus-24-09-30",
+        "date_alias": false,
+        "exact_duplicate_paragraphs": 3
+      },
+      {
+        "filename": "CHYPS-V-br20-Claude-4.5-Sonnet-25-12-10.txt",
+        "candidate_id": "Claude-4.5-Sonnet-25-12-10",
+        "date_alias": false,
+        "exact_duplicate_paragraphs": 3
+      },
+      {
+        "filename": "CHYPS-V-br20-DeepL-v2-api-v3.4.1-25-06-05.txt",
+        "candidate_id": "DeepL-v2-api-v3.4.1-25-06-05",
+        "date_alias": false,
+        "exact_duplicate_paragraphs": 1
+      },
+      {
+        "filename": "CHYPS-V-br20-DeepL-v2-api-v3.8.0-25-12-10.txt",
+        "candidate_id": "DeepL-v2-api-v3.8.0-25-12-10",
+        "date_alias": false,
+        "exact_duplicate_paragraphs": 1
+      },
+      {
+        "filename": "CHYPS-V-br20-DeepSeek-R1-1776-25-06-05.txt",
+        "candidate_id": "DeepSeek-R1-1776-25-07-24",
+        "date_alias": true,
+        "exact_duplicate_paragraphs": 0
+      },
+      {
+        "filename": "CHYPS-V-br20-Deepseek-v3-deepthink-25-07-24.txt",
+        "candidate_id": "Deepseek-v3-deepthink-25-07-24",
+        "date_alias": false,
+        "exact_duplicate_paragraphs": 3
+      },
+      {
+        "filename": "CHYPS-V-br20-Deepseek-v3.2-deepthink-25-12-10.txt",
+        "candidate_id": "Deepseek-v3.2-deepthink-25-12-10",
+        "date_alias": false,
+        "exact_duplicate_paragraphs": 3
+      },
+      {
+        "filename": "CHYPS-V-br20-Gemini-2.5-Flash-25-06-05.txt",
+        "candidate_id": "Gemini-2.5-Flash-25-07-24",
+        "date_alias": true,
+        "exact_duplicate_paragraphs": 3
+      },
+      {
+        "filename": "CHYPS-V-br20-Gemini-2.5-Pro-25-06-05.txt",
+        "candidate_id": "Gemini-2.5-Pro-25-06-05",
+        "date_alias": false,
+        "exact_duplicate_paragraphs": 3
+      },
+      {
+        "filename": "CHYPS-V-br20-Gemini-3.0-Pro-25-12-10.txt",
+        "candidate_id": "Gemini-3.0-Pro-25-12-10",
+        "date_alias": false,
+        "exact_duplicate_paragraphs": 3
+      },
+      {
+        "filename": "CHYPS-V-br20-Grok-4-25-07-25.txt",
+        "candidate_id": "Grok-4-25-07-25",
+        "date_alias": false,
+        "exact_duplicate_paragraphs": 3
+      },
+      {
+        "filename": "CHYPS-V-br20-Grok-4.1-25-12-10.txt",
+        "candidate_id": "Grok-4.1-25-12-10",
+        "date_alias": false,
+        "exact_duplicate_paragraphs": 3
+      },
+      {
+        "filename": "CHYPS-V-br20-Human-25-09-30.txt",
+        "candidate_id": "Human-25-09-30",
+        "date_alias": false,
+        "exact_duplicate_paragraphs": 2
+      },
+      {
+        "filename": "CHYPS-V-br20-Maritaca-ai-Sabia-3.1-25-07-24.txt",
+        "candidate_id": "Maritaca-ai-Sabia-3.1-25-07-24",
+        "date_alias": false,
+        "exact_duplicate_paragraphs": 2
+      },
+      {
+        "filename": "CHYPS-V-br20-Mistral-Medium-3-25-07-24.txt",
+        "candidate_id": "Mistral-Medium-3-25-07-24",
+        "date_alias": false,
+        "exact_duplicate_paragraphs": 3
+      },
+      {
+        "filename": "CHYPS-V-br20-MoonshotAI-Kimi-K2-25-07-24.txt",
+        "candidate_id": "MoonshotAI-Kimi-K2-25-07-24",
+        "date_alias": false,
+        "exact_duplicate_paragraphs": 0
+      },
+      {
+        "filename": "CHYPS-V-br20-Nvidia-Llama-3.1-Nemotron-Ultra-253B-v1-25-07-24.txt",
+        "candidate_id": "Nvidia-Llama-3.1-Nemotron-Ultra-253B-v1-25-07-24",
+        "date_alias": false,
+        "exact_duplicate_paragraphs": 2
+      },
+      {
+        "filename": "CHYPS-V-br20-OpenAI-GPT-4.1-25-07-24.txt",
+        "candidate_id": "OpenAI-GPT-4.1-25-07-24",
+        "date_alias": false,
+        "exact_duplicate_paragraphs": 3
+      },
+      {
+        "filename": "CHYPS-V-br20-OpenAI-GPT-5.1-Pro-25-12-10.txt",
+        "candidate_id": "OpenAI-GPT-5.1-Pro-25-12-10",
+        "date_alias": false,
+        "exact_duplicate_paragraphs": 3
+      },
+      {
+        "filename": "CHYPS-V-br20-OpenAI-o3-25-04-16.txt",
+        "candidate_id": "OpenAI-o3-25-04-16",
+        "date_alias": false,
+        "exact_duplicate_paragraphs": 3
+      },
+      {
+        "filename": "CHYPS-V-br20-google-translate-25-09-07.txt",
+        "candidate_id": "google-translate-25-09-07",
+        "date_alias": false,
+        "exact_duplicate_paragraphs": 2
+      },
+      {
+        "filename": "CHYPS-V-br20-qwen-3-235b-a22b-no-thinking-25-07-24.txt",
+        "candidate_id": "qwen-3-235b-a22b-no-thinking-25-07-24",
+        "date_alias": false,
+        "exact_duplicate_paragraphs": 3
+      },
+      {
+        "filename": "CHYPS-V-br20-qwen-3-max-25-07-24.txt",
+        "candidate_id": "qwen-3-max-25-07-24",
+        "date_alias": false,
+        "exact_duplicate_paragraphs": 3
+      }
+    ],
+    "reference_review": [
+      "Human Q3 contains 'poque'; Q9 contains 'ach oas'. Preserved verbatim.",
+      "Human Q7 uses 'cortinas' for 'window shade' in driving context; review suggested.",
+      "Human reference has not been independently revalidated by this analysis."
+    ],
+    "instructions_policy": "One complete introductory block; descriptive comparisons only, no segment CI."
+  },
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "rapidfuzz": "3.14.6",
+    "snowballstemmer": "3.1.1",
+    "torch": "2.10.0+cpu",
+    "transformers": "4.57.6",
+    "unbabel-comet": "2.2.7"
+  },
+  "human_candidate_id": "Human-25-09-30",
+  "eligible_automatic_candidates": [
+    "Claude-4.1-Opus-24-09-30",
+    "DeepL-v2-api-v3.4.1-25-06-05",
+    "Deepseek-v3-deepthink-25-07-24",
+    "Deepseek-v3.2-deepthink-25-12-10",
+    "Gemini-2.5-Pro-25-06-05",
+    "Grok-4-25-07-25",
+    "Grok-4.1-25-12-10",
+    "MoonshotAI-Kimi-K2-25-07-24",
+    "OpenAI-GPT-4.1-25-07-24",
+    "google-translate-25-09-07",
+    "qwen-3-max-25-07-24"
+  ],
+  "exploratory_margin": 0.01,
+  "stopwords": [
+    "a",
+    "ao",
+    "aos",
+    "as",
+    "com",
+    "como",
+    "da",
+    "das",
+    "de",
+    "do",
+    "dos",
+    "e",
+    "ela",
+    "elas",
+    "ele",
+    "eles",
+    "em",
+    "essa",
+    "essas",
+    "esse",
+    "esses",
+    "esta",
+    "estar",
+    "estas",
+    "este",
+    "estes",
+    "eu",
+    "isso",
+    "isto",
+    "me",
+    "meu",
+    "meus",
+    "minha",
+    "minhas",
+    "na",
+    "nas",
+    "no",
+    "nos",
+    "o",
+    "onde",
+    "os",
+    "ou",
+    "para",
+    "pela",
+    "pelas",
+    "pelo",
+    "pelos",
+    "por",
+    "porque",
+    "quais",
+    "qual",
+    "quando",
+    "que",
+    "se",
+    "ser",
+    "são",
+    "um",
+    "uma",
+    "umas",
+    "uns",
+    "à",
+    "às",
+    "é"
+  ],
+  "inference_family": "all automatic pairs separately per mode/metric; Holm p-values",
+  "estimand": "unweighted mean across 20 fixed questionnaire items under item resampling",
+  "limitations": [
+    "Intervals describe item-composition stability, not general-text population coverage.",
+    "Failure to reject differences is not equivalence; 0.01 is an exploratory tolerance.",
+    "Instruction comparisons are descriptive only (one composite block).",
+    "BCa assumes exchangeable items; stratified intervals are percentile, explicitly labeled.",
+    "Word similarity, stemming and spelling matching do not establish semantic validity.",
+    "The human reference is preserved verbatim, including apparent errors."
+  ],
+  "cached_model_revisions": {
+    "Unbabel/wmt22-comet-da": [
+      "2760a223ac957f30acfb18c8aa649b01cf1d75f2"
+    ],
+    "lorenzocc/NeoBERTugues": [
+      "90a4f051ce41df9b7797986990253d98d46351ce"
+    ],
+    "xlm-roberta-large": [
+      "c23d21b0620b635a76227c604d44e43a9f0ee389"
+    ]
+  }
+}

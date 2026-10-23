@@ -1,0 +1,18 @@
+[
+  {
+    "metric": "bertscore",
+    "model": "lorenzocc/NeoBERTugues",
+    "revision": "90a4f051ce41df9b7797986990253d98d46351ce",
+    "file": "model.safetensors",
+    "sha256": "4a86a2e3f0937a18c47a04961724cecea93ba53da0fe3b6dfafd71b929fa9886",
+    "bytes": 542135064
+  },
+  {
+    "metric": "comet",
+    "model": "Unbabel/wmt22-comet-da",
+    "revision": "2760a223ac957f30acfb18c8aa649b01cf1d75f2",
+    "file": "checkpoints/model.ckpt",
+    "sha256": "e213091cde220f97b89f8bdfa750c458cfea741ad62affb455b59900210ff2af",
+    "bytes": 2323649073
+  }
+]

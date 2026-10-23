@@ -1,0 +1,9 @@
+# Small standalone environment for lexical analysis and inference (Python 3.12).
+# Full semantic dependencies are declared in pyproject.toml / uv.lock.
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.17.0
+scikit-learn==1.8.0
+matplotlib==3.10.8
+rapidfuzz==3.14.6
+snowballstemmer==3.1.1

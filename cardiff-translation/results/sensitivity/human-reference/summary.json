@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "automatic_candidates": 24,
+  "item_pairs": 5520,
+  "normalized_bag_identical_pairs": 539,
+  "same_words_different_order_pairs": 25,
+  "pairwise_fuzzy_mean": 0.7995415512360039,
+  "pairwise_fuzzy_min": 0.5821100225765714,
+  "pairwise_fuzzy_max": 0.9333749775653968,
+  "pairwise_token_f1_mean": 0.7843922431020508,
+  "pairwise_token_f1_min": 0.570231542789595,
+  "pairwise_token_f1_max": 0.9333749775653968,
+  "nearest_pair": {
+    "candidate_a": "DeepL-v2-api-v3.4.1-25-06-05",
+    "candidate_b": "DeepL-v2-api-v3.8.0-25-12-10",
+    "fuzzy_f1": 0.9333749775653968
+  },
+  "farthest_pair": {
+    "candidate_a": "DeepSeek-R1-1776-25-07-24",
+    "candidate_b": "Nvidia-Llama-3.1-Nemotron-Ultra-253B-v1-25-07-24",
+    "fuzzy_f1": 0.5821100225765714
+  }
+}

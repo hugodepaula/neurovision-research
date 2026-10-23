@@ -32,3 +32,6 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# Reusable sensitivity-analysis downloads and model-score cache
+.cache/

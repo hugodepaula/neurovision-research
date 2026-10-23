@@ -1,5 +1,10 @@
 # Cardiff Translation — CHYPS-V Evaluation Framework
 
+Para a nova análise por item com referência humana, comparações lexicais entre
+traduções, intervalos de confiança e estabilidade dos rankings, consulte
+[Análise de sensibilidade](docs/SENSITIVITY_ANALYSIS.md). Esse fluxo preserva os
+resultados publicados e salva suas saídas separadamente.
+
 > Código e dados do TCC de Engenharia de Software — PUC Minas (2025).  
 > Avalia 25 traduções do questionário CHYPS-V para o Português Brasileiro combinando métricas automáticas de legibilidade (ALT), similaridade semântica (BERTScore, COMET) e ferramentas auxiliares de ranqueamento.
 
@@ -225,7 +230,7 @@ O `uv sync` lê o `pyproject.toml` e instala todas as dependências em um ambien
 
 | Pacote | Versão | Uso |
 |--------|--------|-----|
-| `transformers` | ~4.40.1 | Carregar NeoBERTugues para BERTScore |
+| `transformers` | ≥4.57.1, <5.0 | Carregar a arquitetura ModernBERT do NeoBERTugues atual |
 | `unbabel-comet` | ≥2.2.6 | Modelo COMET (wmt22-comet-da) |
 | `bert-score` | ≥0.3.13 | Utilitários BERTScore |
 | `torch` | (via transformers) | Inferência dos modelos |

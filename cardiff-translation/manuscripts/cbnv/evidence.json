@@ -1,0 +1,44 @@
+{
+  "analysis_protocol": "human-reference-item-v1",
+  "input_hashes": {
+    "results/sensitivity/human-reference/metadata.json": "8c5f59a9ea7632bc0f8d301f9e468c7d564682bc3152fa9b7f7c231f020e28b0",
+    "results/sensitivity/human-reference/pairwise_model_means.csv": "b7433d07a903a06651c97de12ea7085f90eadd7c013b1466c64d6af948362d42",
+    "results/sensitivity/human-reference/semantic_pairwise_model_means.csv": "9ec4c74acd866192cc17a0b38e0a7614d35fbcf4930d56401d83613775d959cd",
+    "results/sensitivity/human-reference/paired_comparisons.csv": "5f50172aed96f91219328eaf7737d47222e6d6c839bdb8188e347cf74e4ad092",
+    "results/sensitivity/human-reference/composite_sensitivity.csv": "0b9e8db8478930f0da011ab22d86cc31b6f37e5d5e214a4032ac5785e0a83bb9",
+    "results/sensitivity/human-reference/reference_intervals.csv": "4d1c0f82065deec569b3a68151df399601c1c77a5de8314c12c9ef837f806586",
+    "results/sensitivity/human-reference/semantic_item_scores.csv": "55c8733fc595ee87d0ae812e39d8ffa1f8ec54d48a64eef736fd7f82274d1e22",
+    "results/questions-only/original/analysis_results_alt.csv": "f6fe177b971627b598c9a06b3706ba97af20d4a88c250329e9b691b38a15ff25"
+  },
+  "lexical_examples": {
+    "q06_strobing_versions": 24,
+    "q18_strobing_versions": 24,
+    "q16_patterns": {
+      "piscantes / piscando / piscam": 17,
+      "tremeluzentes / tremeluzem": 3,
+      "cintilantes / cintilam": 2,
+      "tremulantes / tremulam": 2,
+      "tremem": 1
+    },
+    "note": "Counts are translation versions; alternatives may coexist within a version."
+  },
+  "bootstrap_resamples": 10000,
+  "random_seed": 2026,
+  "participant_data_source": "Previously provided CI-IA expanded abstract; no new participant-level reanalysis",
+  "previously_reported_participants": {
+    "total": 137,
+    "comprehension_pass": 122,
+    "ease_percent_among_included": 93.4
+  },
+  "google_document_access": "HTTP 401; contents and template unavailable; no remote edit performed",
+  "abstract_pt_word_count": 289,
+  "extended_abstract_pt_word_count": 1379,
+  "exports": [
+    "abstract_pt.docx",
+    "abstract_pt.pdf",
+    "extended_abstract_pt.docx",
+    "extended_abstract_pt.pdf",
+    "supplementary_figure.docx",
+    "supplementary_figure.pdf"
+  ]
+}
