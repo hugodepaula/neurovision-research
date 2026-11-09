@@ -2,6 +2,8 @@
 
 ## Documentação e avaliação de compreensão
 
+Materiais do [IV Encontro de Pesquisa em Neurociências — UFMG, 2026](manuscripts/encontro-neurociencias-ufmg-2026/README.md): resumos identificado/anônimo, pôster editável/PDF, figuras e roteiro de apresentação.
+
 - [Explicação metodológica em português](docs/SENSITIVITY_ANALYSIS_EXPLAINED_PT.md)
 - [Mapeamento dos questionários e guia do JSON](docs/questionnaire/MAPPING.md)
 - [Dicionário de metadados](docs/questionnaire/dictionary.json)

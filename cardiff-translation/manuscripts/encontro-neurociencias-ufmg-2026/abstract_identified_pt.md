@@ -1,0 +1,11 @@
+# Qualidade linguística e compreensão preliminar na adaptação do CHYPS-V para o português brasileiro
+
+Hugo Bastos de Paula; Jerome Baron
+
+Universidade Federal de Minas Gerais, Belo Horizonte, MG, Brasil.
+
+hugodepaula@gmail.com · jerome.baron.ufmg@gmail.com
+
+**Introdução:** A adaptação de questionários requer preservar significados e favorecer a compreensão pelo público-alvo. Métricas computacionais e avaliações de facilidade oferecem evidências complementares. **Objetivos:** Avaliar a qualidade linguística de traduções do Cardiff Hypersensitivity Scale–Visual (CHYPS-V) e a facilidade percebida de sua versão brasileira. **Metodologia:** Compararam-se 24 traduções automáticas, com referência humana portuguesa e 20 itens alinhados, por sobreposição lexical, variante BERTScore/NeoBERTugues e COMET-22. Estimaram-se intervalos de confiança (IC) BCa com 10.000 reamostragens pareadas e sensibilidade dos rankings. Na aplicação autônoma da versão Deepseek-v3.2, analisaram-se facilidade, idade e escolaridade após seleção por compreensão da instrução sobre desconforto físico. Aprovação ética: Parecer 8.062.532; CAAE 93614725.6.0000.5149. **Resultados:** Doze das 25 versões, incluindo a humana, atenderam ao critério operacional ALT ≤8. Entre traduções automáticas, o F1 lexical médio foi 0,784 (IC 95%: 0,751–0,817) e a similaridade contextual, 0,930 (0,920–0,941). A liderança entre candidatas elegíveis variou conforme os pesos das métricas. Das 531 submissões, 425 atenderam ao critério de compreensão. A idade mediana foi 24 anos (intervalo interquartil: 19–33). Entre 419 respostas válidas de facilidade, 394 (94,0%) indicaram fácil/muito fácil e 25 (6,0%) difícil/muito difícil (IC 95% de Wilson: 4,1%–8,7%); seis participantes preferiram não responder. A dificuldade foi descritivamente maior nos pequenos grupos de ensino fundamental. **Conclusões:** Houve convergência entre traduções e elevada facilidade percebida entre os incluídos. A seleção por compreensão limita a generalização. Os resultados orientam revisão linguística e entrevistas cognitivas, sem estabelecer equivalência entre traduções ou validade psicométrica.
+
+**Palavras-chave:** Hipersensibilidade visual; adaptação transcultural; tradução automática; compreensão; legibilidade.

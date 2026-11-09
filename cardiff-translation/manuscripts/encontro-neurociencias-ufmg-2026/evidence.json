@@ -1,0 +1,28 @@
+{
+  "body_word_count_including_labels": 236,
+  "word_limit": 300,
+  "authors": "Hugo Bastos de Paula; Jerome Baron",
+  "affiliation": "Universidade Federal de Minas Gerais, Belo Horizonte, MG, Brasil.",
+  "ethics_confirmed_by_responsible": {
+    "opinion": "8.062.532",
+    "caae": "93614725.6.0000.5149"
+  },
+  "source_hashes": {
+    "results/usability/initial-cohort/summary.json": "e9d2e2739dc1557e99f9b291297d3c8cb68c33fc93ccda4e3e1186a31a7d2937",
+    "results/sensitivity/human-reference/paired_comparisons.csv": "5f50172aed96f91219328eaf7737d47222e6d6c839bdb8188e347cf74e4ad092",
+    "results/sensitivity/human-reference/composite_sensitivity.csv": "0b9e8db8478930f0da011ab22d86cc31b6f37e5d5e214a4032ac5785e0a83bb9",
+    "manuscripts/cbnv/abstract_pt.md": "096d041ce7b5d2b334fe5c9fb0bd8deeb413a790481fb3867e1290b22cacb3e7",
+    "manuscripts/encontro-neurociencias-ufmg-2026/content.json": "d61f63ae518d83d5b1574f30fe77f574eacd373900358fd493d4480584eec3dd"
+  },
+  "templates": {
+    "abstract": {
+      "url": "https://docs.google.com/document/d/1veWwrwgkEpm-QPuXuEyJxG4hGA85njQK/edit",
+      "sha256": "9fd1b71b82268f310104a828a84f65102c8bf9d9c8842fefc414792ab23a09d7"
+    },
+    "poster": {
+      "url": "https://docs.google.com/presentation/d/1wDlXkZWWjSocFHC5Nq8KxfzHYfFwFQc9/edit",
+      "sha256": "08d06f5e0eb05131cae063fe85786a67523c1d8906366909915d138251033ff3"
+    }
+  },
+  "participant_data": "Public aggregates only; no access to raw response export in this build."
+}
