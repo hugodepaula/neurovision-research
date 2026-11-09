@@ -35,3 +35,10 @@ Thumbs.db
 
 # Reusable sensitivity-analysis downloads and model-score cache
 .cache/
+
+# Never version questionnaire response exports, private reviews or participant assets.
+questionnaire*_report*.json
+*questionnaire*responses*.json
+**/private-data/
+**/private-reviews/
+**/screenshots-original/

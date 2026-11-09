@@ -198,3 +198,11 @@ This writes `model_integrity.json` and refreshes the output checksum manifest.
 - Rei et al. (2020), COMET. https://aclanthology.org/2020.emnlp-main.213/
 - Glushkova et al. (2021), Uncertainty-Aware Machine Translation Evaluation.
   https://aclanthology.org/2021.findings-emnlp.330/
+
+## Explanatory documentation and questionnaire usability
+
+See the [Portuguese explanation](SENSITIVITY_ANALYSIS_EXPLAINED_PT.md) for the
+methodological rationale and [questionnaire mapping](questionnaire/MAPPING.md)
+for the application/export contract. [Usability results](../results/usability/initial-cohort/report.md)
+use participant-level aggregated outcomes under a separate protocol. No response
+exports or individual records may be published.

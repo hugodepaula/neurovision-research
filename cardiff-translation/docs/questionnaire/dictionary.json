@@ -1,0 +1,641 @@
+{
+  "schema_version": 1,
+  "translation_file": "translations/markdown/CHYPS-V-br20-Deepseek-v3.2-deepthink-25-12-10.md",
+  "translation_sha256": "557f12ac5dde6e85b0bc49e6b7c8cc86f13359e4526d590cc41790beda1e3fd6",
+  "scope": "Questionnaire metadata only; no respondent data. Numeric question IDs apply to this export, not every installation.",
+  "questions": [
+    {
+      "caption": "T1",
+      "question_id_in_export": 39,
+      "step": 1,
+      "text": "TERMO DE CONSENTIMENTO LIVRE E ESCLARECIDO (TCLE)",
+      "type": "single",
+      "options_in_display_order": [
+        "De acordo"
+      ],
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": true,
+      "source": "structure attachment and screenshots",
+      "notes": ""
+    },
+    {
+      "caption": "QS1",
+      "question_id_in_export": 29,
+      "step": 2,
+      "text": "Nome",
+      "type": "free_text",
+      "options_in_display_order": null,
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": true,
+      "source": "structure attachment and screenshots",
+      "notes": ""
+    },
+    {
+      "caption": "QS2",
+      "question_id_in_export": 30,
+      "step": 2,
+      "text": "Data de nascimento: __ / __ / ____",
+      "type": "free_text",
+      "options_in_display_order": null,
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": true,
+      "source": "structure attachment and screenshots",
+      "notes": ""
+    },
+    {
+      "caption": "QS3",
+      "question_id_in_export": 41,
+      "step": 2,
+      "text": "Email",
+      "type": "free_text",
+      "options_in_display_order": null,
+      "required": false,
+      "required_evidence": "explicitly optional in screenshot",
+      "screenshot_available": true,
+      "source": "structure attachment and screenshots",
+      "notes": ""
+    },
+    {
+      "caption": "QS4",
+      "question_id_in_export": 31,
+      "step": 2,
+      "text": "Sexo biológico ao nascer",
+      "type": "single",
+      "options_in_display_order": [
+        "Feminino",
+        "Masculino",
+        "Prefiro não responder"
+      ],
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": true,
+      "source": "structure attachment and screenshots",
+      "notes": ""
+    },
+    {
+      "caption": "QS5",
+      "question_id_in_export": 44,
+      "step": 2,
+      "text": "Gênero",
+      "type": "free_text",
+      "options_in_display_order": null,
+      "required": false,
+      "required_evidence": "explicitly optional in screenshot",
+      "screenshot_available": true,
+      "source": "structure attachment and screenshots",
+      "notes": ""
+    },
+    {
+      "caption": "QS6",
+      "question_id_in_export": 32,
+      "step": 2,
+      "text": "Raça",
+      "type": "unconfirmed",
+      "options_in_display_order": null,
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": false,
+      "source": "structure attachment and screenshots",
+      "notes": "Full wording/options not independently verified."
+    },
+    {
+      "caption": "QS7",
+      "question_id_in_export": 45,
+      "step": 2,
+      "text": "Etnia",
+      "type": "free_text",
+      "options_in_display_order": null,
+      "required": false,
+      "required_evidence": "explicitly optional in screenshot",
+      "screenshot_available": true,
+      "source": "structure attachment and screenshots",
+      "notes": ""
+    },
+    {
+      "caption": "QS8",
+      "question_id_in_export": 33,
+      "step": 2,
+      "text": "Grau de escolaridade",
+      "type": "single",
+      "options_in_display_order": [
+        "Ensino fundamental incompleto",
+        "Ensino fundamental completo",
+        "Ensino médio incompleto",
+        "Ensino médio completo",
+        "Ensino superior incompleto",
+        "Ensino superior completo",
+        "Pós-graduação",
+        "Prefiro não responder"
+      ],
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": true,
+      "source": "structure attachment and screenshots",
+      "notes": ""
+    },
+    {
+      "caption": "QS9",
+      "question_id_in_export": 42,
+      "step": 2,
+      "text": "Profissão",
+      "type": "free_text",
+      "options_in_display_order": null,
+      "required": false,
+      "required_evidence": "explicitly optional in screenshot",
+      "screenshot_available": true,
+      "source": "structure attachment and screenshots",
+      "notes": ""
+    },
+    {
+      "caption": "QS10",
+      "question_id_in_export": 34,
+      "step": 2,
+      "text": "Diagnóstico prévio de transtorno",
+      "type": "multiple",
+      "options_in_display_order": [
+        "Nenhum",
+        "Agorafobia",
+        "Anorexia",
+        "Ansiedade Social",
+        "Bulimia",
+        "Depressão",
+        "Dislexia",
+        "Dispraxia",
+        "Enxaqueca ou Migrânea",
+        "Esquizofrenia",
+        "Fibromialgia",
+        "Sinestesia",
+        "Tontura Subjetiva Crônica (PPPD)",
+        "Transtorno da Compulsão Alimentar Periódica (TCAP)",
+        "Transtorno de Ansiedade Generalizada (TAG)",
+        "Transtorno de Estresse Pós-Traumático (TEPT)",
+        "Transtorno do Déficit de Atenção com Hiperatividade (TDAH)",
+        "Transtorno do Espectro Autista (TEA)",
+        "Transtorno do Pânico",
+        "Transtorno Obsessivo-Compulsivo (TOC)",
+        "Prefiro não responder"
+      ],
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": true,
+      "source": "structure attachment and screenshots",
+      "notes": ""
+    },
+    {
+      "caption": "QS11",
+      "question_id_in_export": 35,
+      "step": 2,
+      "text": "Faz uso de medicamento psiquiátrico?",
+      "type": "single",
+      "options_in_display_order": [
+        "Sim",
+        "Não",
+        "Prefiro não responder"
+      ],
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": true,
+      "source": "structure attachment and screenshots",
+      "notes": ""
+    },
+    {
+      "caption": "QS12",
+      "question_id_in_export": 43,
+      "step": 2,
+      "text": "Quais medicamentos psiquiátricos você utiliza?",
+      "type": "free_text",
+      "options_in_display_order": null,
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": false,
+      "source": "structure attachment and screenshots",
+      "notes": "Conditional medication follow-up; exact rule and mandatory status not independently verified."
+    },
+    {
+      "caption": "TR1",
+      "question_id_in_export": 36,
+      "step": 3,
+      "text": "Por favor, indique o que queremos dizer com 'desconfortável' nas perguntas que você está prestes a responder (leia o texto acima se não tiver certeza):",
+      "type": "single",
+      "options_in_display_order": [
+        "Perturbador",
+        "Assustador",
+        "Repugnante",
+        "Dor física, cansaço ou tensão dentro ou ao redor dos olhos ou da cabeça"
+      ],
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": true,
+      "source": "translation Markdown",
+      "notes": ""
+    },
+    {
+      "caption": "Q1",
+      "question_id_in_export": 8,
+      "step": 4,
+      "text": "Quando olho para padrões repetitivos ou listrados (ex.: piso padronizado, papel de parede, prédios, roupas listradas), meus olhos ou cabeça ficam tão desconfortáveis que preciso desviar o olhar.",
+      "type": "single",
+      "options_in_display_order": [
+        "Quase nunca",
+        "Ocasionalmente",
+        "Frequentemente",
+        "Quase sempre"
+      ],
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": true,
+      "source": "translation Markdown",
+      "notes": ""
+    },
+    {
+      "caption": "Q2",
+      "question_id_in_export": 9,
+      "step": 4,
+      "text": "Eu tento evitar assistir filmes ou programas de TV que tenham muitos movimentos rápidos ou usem imagens instáveis (ex.: jogos esportivos, filmes de ação) porque os acho desconfortáveis de olhar.",
+      "type": "single",
+      "options_in_display_order": [
+        "Quase nunca",
+        "Ocasionalmente",
+        "Frequentemente",
+        "Quase sempre"
+      ],
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": true,
+      "source": "translation Markdown",
+      "notes": ""
+    },
+    {
+      "caption": "Q3",
+      "question_id_in_export": 10,
+      "step": 4,
+      "text": "Eu desligo ou escureço luzes de teto brilhantes porque elas fazem meus olhos ou cabeça ficarem desconfortáveis.",
+      "type": "single",
+      "options_in_display_order": [
+        "Quase nunca",
+        "Ocasionalmente",
+        "Frequentemente",
+        "Quase sempre"
+      ],
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": false,
+      "source": "translation Markdown",
+      "notes": ""
+    },
+    {
+      "caption": "Q4",
+      "question_id_in_export": 11,
+      "step": 4,
+      "text": "Eu tenho que desviar o olhar ao assistir esportes ou pessoas correndo e se movendo rapidamente porque é visualmente desconfortável.",
+      "type": "single",
+      "options_in_display_order": [
+        "Quase nunca",
+        "Ocasionalmente",
+        "Frequentemente",
+        "Quase sempre"
+      ],
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": false,
+      "source": "translation Markdown",
+      "notes": ""
+    },
+    {
+      "caption": "Q5",
+      "question_id_in_export": 12,
+      "step": 4,
+      "text": "Padrões e imagens listradas e repetitivas parecem cintilar, piscar ou se mover quando eu olho para eles.",
+      "type": "single",
+      "options_in_display_order": [
+        "Quase nunca",
+        "Ocasionalmente",
+        "Frequentemente",
+        "Quase sempre"
+      ],
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": false,
+      "source": "translation Markdown",
+      "notes": ""
+    },
+    {
+      "caption": "Q6",
+      "question_id_in_export": 13,
+      "step": 4,
+      "text": "Eu fecho os olhos ou desvio o olhar se houver luzes estroboscópicas ou piscantes em um programa de TV ou filme no cinema.",
+      "type": "single",
+      "options_in_display_order": [
+        "Quase nunca",
+        "Ocasionalmente",
+        "Frequentemente",
+        "Quase sempre"
+      ],
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": false,
+      "source": "translation Markdown",
+      "notes": ""
+    },
+    {
+      "caption": "Q7",
+      "question_id_in_export": 14,
+      "step": 4,
+      "text": "Mesmo que o sol não esteja diretamente nos meus olhos, preciso baixar o quebra-sol ao dirigir em condições de luz forte porque a luz é desconfortável para meus olhos ou cabeça.",
+      "type": "single",
+      "options_in_display_order": [
+        "Quase nunca",
+        "Ocasionalmente",
+        "Frequentemente",
+        "Quase sempre"
+      ],
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": false,
+      "source": "translation Markdown",
+      "notes": ""
+    },
+    {
+      "caption": "Q8",
+      "question_id_in_export": 15,
+      "step": 4,
+      "text": "Quando há muitas cores brilhantes ao meu redor, eu costumo ter dor de cabeça.",
+      "type": "single",
+      "options_in_display_order": [
+        "Quase nunca",
+        "Ocasionalmente",
+        "Frequentemente",
+        "Quase sempre"
+      ],
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": false,
+      "source": "translation Markdown",
+      "notes": ""
+    },
+    {
+      "caption": "Q9",
+      "question_id_in_export": 16,
+      "step": 4,
+      "text": "Acho mudanças súbitas do escuro para o claro extremamente desconfortáveis para meus olhos e cabeça (ex.: acender luzes à noite, sair de um quarto escuro).",
+      "type": "single",
+      "options_in_display_order": [
+        "Quase nunca",
+        "Ocasionalmente",
+        "Frequentemente",
+        "Quase sempre"
+      ],
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": false,
+      "source": "translation Markdown",
+      "notes": ""
+    },
+    {
+      "caption": "Q10",
+      "question_id_in_export": 17,
+      "step": 4,
+      "text": "Videogames com muito movimento fazem meus olhos ou cabeça ficarem desconfortáveis.",
+      "type": "single",
+      "options_in_display_order": [
+        "Quase nunca",
+        "Ocasionalmente",
+        "Frequentemente",
+        "Quase sempre"
+      ],
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": false,
+      "source": "translation Markdown",
+      "notes": ""
+    },
+    {
+      "caption": "Q11",
+      "question_id_in_export": 18,
+      "step": 4,
+      "text": "Lugares desorganizados ou visualmente bagunçados (ex.: cômodos, lojas ou outros ambientes) fazem meus olhos ou cabeça ficarem desconfortáveis.",
+      "type": "single",
+      "options_in_display_order": [
+        "Quase nunca",
+        "Ocasionalmente",
+        "Frequentemente",
+        "Quase sempre"
+      ],
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": false,
+      "source": "translation Markdown",
+      "notes": ""
+    },
+    {
+      "caption": "Q12",
+      "question_id_in_export": 19,
+      "step": 4,
+      "text": "Eu preciso desviar o olhar ou evitar padrões complexos no meu ambiente (ex.: papel de parede, carpetes, obras de arte).",
+      "type": "single",
+      "options_in_display_order": [
+        "Quase nunca",
+        "Ocasionalmente",
+        "Frequentemente",
+        "Quase sempre"
+      ],
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": false,
+      "source": "translation Markdown",
+      "notes": ""
+    },
+    {
+      "caption": "Q13",
+      "question_id_in_export": 20,
+      "step": 4,
+      "text": "Assistir multidões de pessoas se movimentando é desconfortável para meus olhos e cabeça.",
+      "type": "single",
+      "options_in_display_order": [
+        "Quase nunca",
+        "Ocasionalmente",
+        "Frequentemente",
+        "Quase sempre"
+      ],
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": false,
+      "source": "translation Markdown",
+      "notes": ""
+    },
+    {
+      "caption": "Q14",
+      "question_id_in_export": 21,
+      "step": 4,
+      "text": "Quando a luz do sol reflete em superfícies (ex.: água, neve, espelhos, carros, telas), meus olhos ou cabeça ficam tão desconfortáveis que preciso desviar o olhar.",
+      "type": "single",
+      "options_in_display_order": [
+        "Quase nunca",
+        "Ocasionalmente",
+        "Frequentemente",
+        "Quase sempre"
+      ],
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": false,
+      "source": "translation Markdown",
+      "notes": ""
+    },
+    {
+      "caption": "Q15",
+      "question_id_in_export": 22,
+      "step": 4,
+      "text": "Acho cômodos ou prédios com detalhes listrados ou complexos (ex.: painéis de alto contraste, alvenaria, colunas) desconfortáveis de olhar.",
+      "type": "single",
+      "options_in_display_order": [
+        "Quase nunca",
+        "Ocasionalmente",
+        "Frequentemente",
+        "Quase sempre"
+      ],
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": false,
+      "source": "translation Markdown",
+      "notes": ""
+    },
+    {
+      "caption": "Q16",
+      "question_id_in_export": 23,
+      "step": 4,
+      "text": "Olhar para telas piscantes é desconfortável para meus olhos e cabeça.",
+      "type": "single",
+      "options_in_display_order": [
+        "Quase nunca",
+        "Ocasionalmente",
+        "Frequentemente",
+        "Quase sempre"
+      ],
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": false,
+      "source": "translation Markdown",
+      "notes": ""
+    },
+    {
+      "caption": "Q17",
+      "question_id_in_export": 24,
+      "step": 4,
+      "text": "Eu tento evitar ir a supermercados porque os acho visualmente desconfortáveis (ex.: muitos objetos, prateleiras, cores brilhantes e luzes).",
+      "type": "single",
+      "options_in_display_order": [
+        "Quase nunca",
+        "Ocasionalmente",
+        "Frequentemente",
+        "Quase sempre"
+      ],
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": false,
+      "source": "translation Markdown",
+      "notes": ""
+    },
+    {
+      "caption": "Q18",
+      "question_id_in_export": 25,
+      "step": 4,
+      "text": "Eu tento evitar locais onde haverá luzes estroboscópicas ou piscantes (ex.: boates, teatros, shows) caso elas façam meus olhos ou cabeça ficarem desconfortáveis.",
+      "type": "single",
+      "options_in_display_order": [
+        "Quase nunca",
+        "Ocasionalmente",
+        "Frequentemente",
+        "Quase sempre"
+      ],
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": false,
+      "source": "translation Markdown",
+      "notes": ""
+    },
+    {
+      "caption": "Q19",
+      "question_id_in_export": 26,
+      "step": 4,
+      "text": "Meus olhos ou cabeça ficam desconfortáveis se houver uma luz forte no escuro (ex.: telas de cinema, auditórios, lanternas, faróis de carro à noite).",
+      "type": "single",
+      "options_in_display_order": [
+        "Quase nunca",
+        "Ocasionalmente",
+        "Frequentemente",
+        "Quase sempre"
+      ],
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": false,
+      "source": "translation Markdown",
+      "notes": ""
+    },
+    {
+      "caption": "Q20",
+      "question_id_in_export": 27,
+      "step": 4,
+      "text": "Roupas com listras, xadrez ou padrões complexos me dão vontade de desviar o olhar.",
+      "type": "single",
+      "options_in_display_order": [
+        "Quase nunca",
+        "Ocasionalmente",
+        "Frequentemente",
+        "Quase sempre"
+      ],
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": false,
+      "source": "translation Markdown",
+      "notes": ""
+    },
+    {
+      "caption": "F1",
+      "question_id_in_export": 28,
+      "step": 5,
+      "text": "Qual foi a sua dificuldade ou facilidade em entender e responder este teste?",
+      "type": "single",
+      "options_in_display_order": [
+        "Muito difícil",
+        "Difícil",
+        "Fácil",
+        "Muito fácil",
+        "Prefiro não responder"
+      ],
+      "required": null,
+      "required_evidence": "not conclusively verified",
+      "screenshot_available": true,
+      "source": "structure attachment and screenshots",
+      "notes": ""
+    },
+    {
+      "caption": "F2",
+      "question_id_in_export": 40,
+      "step": 5,
+      "text": "Observação",
+      "type": "free_text",
+      "options_in_display_order": null,
+      "required": false,
+      "required_evidence": "explicitly optional in screenshot",
+      "screenshot_available": true,
+      "source": "structure attachment and screenshots",
+      "notes": ""
+    },
+    {
+      "caption": "F3",
+      "question_id_in_export": 46,
+      "step": 5,
+      "text": "Como você ficou sabendo deste teste?",
+      "type": "free_text",
+      "options_in_display_order": null,
+      "required": false,
+      "required_evidence": "explicitly optional in screenshot",
+      "screenshot_available": true,
+      "source": "structure attachment and screenshots",
+      "notes": ""
+    }
+  ]
+}

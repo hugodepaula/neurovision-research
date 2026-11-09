@@ -1,0 +1,265 @@
+{
+  "protocol": "usability-tr1-v1",
+  "total_submissions": 531,
+  "eligible": 425,
+  "exclusions": {
+    "TR1 incorreta": 106
+  },
+  "collection_period": [
+    "2026-03-19",
+    "2026-11-08"
+  ],
+  "f1": {
+    "Muito difícil": 5,
+    "Difícil": 20,
+    "Fácil": 207,
+    "Muito fácil": 187,
+    "Prefiro não responder": 6,
+    "Ausente/inconsistente": 0
+  },
+  "difficulty": {
+    "n": 25,
+    "denominator": 419,
+    "proportion": 0.059665871121718374,
+    "wilson95": [
+      0.04073772256582013,
+      0.08659477451442855
+    ]
+  },
+  "education": {
+    "Ensino fundamental incompleto": 9,
+    "Ensino fundamental completo": 8,
+    "Ensino médio incompleto": 58,
+    "Ensino médio completo": 35,
+    "Ensino superior incompleto": 146,
+    "Ensino superior completo": 69,
+    "Pós-graduação": 100,
+    "Prefiro não responder": 0,
+    "Ausente/inconsistente": 0
+  },
+  "age": {
+    "status": {
+      "valid": 425
+    },
+    "n": 425,
+    "summary": {
+      "minimum": 9.0,
+      "q25": 19.0,
+      "median": 24.0,
+      "q75": 33.0,
+      "maximum": 71.0
+    },
+    "histogram_10_years": [
+      {
+        "from": 0,
+        "to_exclusive": 10,
+        "n": 1
+      },
+      {
+        "from": 10,
+        "to_exclusive": 20,
+        "n": 111
+      },
+      {
+        "from": 20,
+        "to_exclusive": 30,
+        "n": 184
+      },
+      {
+        "from": 30,
+        "to_exclusive": 40,
+        "n": 50
+      },
+      {
+        "from": 40,
+        "to_exclusive": 50,
+        "n": 39
+      },
+      {
+        "from": 50,
+        "to_exclusive": 60,
+        "n": 24
+      },
+      {
+        "from": 60,
+        "to_exclusive": 70,
+        "n": 14
+      },
+      {
+        "from": 70,
+        "to_exclusive": 80,
+        "n": 2
+      },
+      {
+        "from": 80,
+        "to_exclusive": 90,
+        "n": 0
+      },
+      {
+        "from": 90,
+        "to_exclusive": 100,
+        "n": 0
+      },
+      {
+        "from": 100,
+        "to_exclusive": 110,
+        "n": 0
+      },
+      {
+        "from": 110,
+        "to_exclusive": 120,
+        "n": 0
+      },
+      {
+        "from": 120,
+        "to_exclusive": 130,
+        "n": 0
+      }
+    ]
+  },
+  "f1_by_education": {
+    "Ensino fundamental incompleto": {
+      "Muito difícil": 1,
+      "Difícil": 3,
+      "Fácil": 2,
+      "Muito fácil": 3,
+      "Prefiro não responder": 0,
+      "Ausente/inconsistente": 0
+    },
+    "Ensino fundamental completo": {
+      "Muito difícil": 0,
+      "Difícil": 2,
+      "Fácil": 4,
+      "Muito fácil": 2,
+      "Prefiro não responder": 0,
+      "Ausente/inconsistente": 0
+    },
+    "Ensino médio incompleto": {
+      "Muito difícil": 1,
+      "Difícil": 2,
+      "Fácil": 31,
+      "Muito fácil": 22,
+      "Prefiro não responder": 2,
+      "Ausente/inconsistente": 0
+    },
+    "Ensino médio completo": {
+      "Muito difícil": 0,
+      "Difícil": 1,
+      "Fácil": 22,
+      "Muito fácil": 10,
+      "Prefiro não responder": 2,
+      "Ausente/inconsistente": 0
+    },
+    "Ensino superior incompleto": {
+      "Muito difícil": 2,
+      "Difícil": 6,
+      "Fácil": 70,
+      "Muito fácil": 67,
+      "Prefiro não responder": 1,
+      "Ausente/inconsistente": 0
+    },
+    "Ensino superior completo": {
+      "Muito difícil": 0,
+      "Difícil": 3,
+      "Fácil": 35,
+      "Muito fácil": 31,
+      "Prefiro não responder": 0,
+      "Ausente/inconsistente": 0
+    },
+    "Pós-graduação": {
+      "Muito difícil": 1,
+      "Difícil": 3,
+      "Fácil": 43,
+      "Muito fácil": 52,
+      "Prefiro não responder": 1,
+      "Ausente/inconsistente": 0
+    }
+  },
+  "f1_by_age_band": {
+    "0–17": {
+      "Muito difícil": 1,
+      "Difícil": 5,
+      "Fácil": 31,
+      "Muito fácil": 26,
+      "Prefiro não responder": 2,
+      "Ausente/inconsistente": 0
+    },
+    "18–29": {
+      "Muito difícil": 2,
+      "Difícil": 10,
+      "Fácil": 118,
+      "Muito fácil": 98,
+      "Prefiro não responder": 3,
+      "Ausente/inconsistente": 0
+    },
+    "30–44": {
+      "Muito difícil": 1,
+      "Difícil": 2,
+      "Fácil": 27,
+      "Muito fácil": 34,
+      "Prefiro não responder": 0,
+      "Ausente/inconsistente": 0
+    },
+    "45–59": {
+      "Muito difícil": 1,
+      "Difícil": 2,
+      "Fácil": 19,
+      "Muito fácil": 27,
+      "Prefiro não responder": 0,
+      "Ausente/inconsistente": 0
+    },
+    "60–120": {
+      "Muito difícil": 0,
+      "Difícil": 1,
+      "Fácil": 12,
+      "Muito fácil": 2,
+      "Prefiro não responder": 1,
+      "Ausente/inconsistente": 0
+    }
+  },
+  "f2": {
+    "status": {
+      "marcador_na": 327,
+      "comentario_com_conteudo": 76,
+      "sem_observacao_explicita": 17,
+      "sem_conteudo_interpretavel": 5
+    },
+    "review_completed": true,
+    "comments_tagged": 30,
+    "themes": {
+      "instrucoes_exemplo": 3,
+      "alternativas_resposta": 5,
+      "clareza_linguagem": 2,
+      "contexto_memoria": 7,
+      "exemplos_visuais": 1,
+      "extensao_cansaco": 2,
+      "navegacao": 1,
+      "facilidade_explicita": 6,
+      "sociodemografico_inclusao": 7,
+      "recrutamento": 1
+    },
+    "method": "Leitura interpretativa pelo assistente de IA, única, com codificação conservadora multirrótulo, sem inferência clínica ou validação humana independente."
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8"
+  },
+  "script_sha256": "d3064611378952714b051da7b2d8998d53226ba713c33c57e2c54da4ab0c2b68",
+  "input_sha256": "fdd5f696ec354c3a4f37996e2286ecfeca2384f7ca30bb6792eeab10b2da4628",
+  "review_sha256": "018405c1e3fb354c6f70ca3d83d722028455877dc31846d214cc2af92704385f",
+  "parameters": {
+    "age_range": [
+      0,
+      120
+    ],
+    "histogram_bin_width": 10,
+    "confidence": 0.95,
+    "age_date": "submitted_at",
+    "normalization": "Unicode NFC, whitespace and case only",
+    "f1_grouping": [
+      "Muito difícil",
+      "Difícil"
+    ]
+  }
+}

@@ -1,5 +1,21 @@
 # Cardiff Translation — CHYPS-V Evaluation Framework
 
+## Documentação e avaliação de compreensão
+
+- [Explicação metodológica em português](docs/SENSITIVITY_ANALYSIS_EXPLAINED_PT.md)
+- [Mapeamento dos questionários e guia do JSON](docs/questionnaire/MAPPING.md)
+- [Dicionário de metadados](docs/questionnaire/dictionary.json)
+- [Apêndice visual pesquisável e imprimível](docs/questionnaire/visual-appendix.html)
+- [Protocolo de compreensão e publicação](docs/questionnaire/USABILITY_PROTOCOL.md)
+- [Resultados agregados de compreensão](results/usability/initial-cohort/report.md)
+- [Relatório em HTML](results/usability/initial-cohort/report.html) · [PDF](results/usability/initial-cohort/report.pdf)
+
+**Dados individuais nunca são publicados neste repositório.** O JSON de respostas,
+a revisão temática por ID e capturas preenchidas permanecem em armazenamento
+privado fora do Git. O novo script gera apenas agregados. A análise utiliza
+F1, F2, idade e escolaridade após seleção por TR1, sem respostas Q1–Q20 ou escores.
+
+
 Para a nova análise por item com referência humana, comparações lexicais entre
 traduções, intervalos de confiança e estabilidade dos rankings, consulte
 [Análise de sensibilidade](docs/SENSITIVITY_ANALYSIS.md). Esse fluxo preserva os
